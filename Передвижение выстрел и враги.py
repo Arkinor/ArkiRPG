@@ -109,7 +109,7 @@ class Enemy(arcade.Sprite):
     def __init__(self, player):
         super().__init__()
         self.health = 100
-        self.damage = 10
+        self.damage = 20
         self.speed = ENEMY_SPEED
         self.player = player  # Ссылка на игрока для следования за ним
         self.throw_time = time.time()
