@@ -1,7 +1,5 @@
-/venv/
+/.venv/
 /.idea/
-/BarcodeBiblV2/
 /build/
-/ishodn/
 *.spec
 /__pycache__/
